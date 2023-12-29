@@ -1063,7 +1063,7 @@ root = Tk()
 root.geometry("1100x750+20+20")
 root.minsize(350, 250)
 root.title(f"{program_title} - {PROGRAM_NAME}")
-root.option_add("*tearOff", FALSE)
+root.option_add("*tearOff", FALSE) # disable menu tearoffs
 root.protocol("WM_DELETE_WINDOW", _exit)
 root.state("zoomed")  # app will open maximized by default
 
